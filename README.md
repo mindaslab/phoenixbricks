@@ -1,5 +1,7 @@
 # RailsBricks
 
+[![Gem Version](https://badge.fury.io/rb/phoenixbricks.svg)](https://badge.fury.io/rb/phoenixbricks)
+
 _Create **Rails** apps. **Faster**._This is a rescued version of railsbricks 3.2.6, as the previous project was suddenly discontinued.
 
 There is still lot of documentation need to be done, I am hosting it in a hurry.
