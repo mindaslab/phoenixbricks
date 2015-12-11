@@ -12,6 +12,7 @@ There is still lot of documentation need to be done, I am hosting it in a hurry.
 - Contact: 77minds@gmail.com
 - Homepage: https://github.com/mindaslab/pheonixbricks
 - Github: https://github.com/mindaslab/pheonixbricks
+- Gitter: https://gitter.im/mindaslab/pheonixbricks
 - Twitter: @karthik_ak
 
 ---
