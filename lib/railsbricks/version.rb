@@ -2,7 +2,7 @@ module Version
 
   MAJOR = 3
   MINOR = 2
-  PATCH = 6
+  PATCH = 7
   PRE = nil
 
   YEAR = "2015"

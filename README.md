@@ -1,15 +1,18 @@
 # RailsBricks
 
-_Create **Rails** apps. **Faster**._
+_Create **Rails** apps. **Faster**._This is a rescued version of railsbricks 3.2.6, as the previous project was suddenly discontinued.
+
+There is still lot of documentation need to be done, I am hosting it in a hurry.
 
 ---
 - Title: RailsBricks
-- Version: 3.2.6
+- Version: 3.2.7
 - Author: Nico Schuele (www.nicoschuele.com)
-- Contact: [contact page](http://railsbricks.net/contact)
-- Homepage: http://www.railsbricks.net
-- Github: https://github.com/nicoschuele/railsbricks
-- Twitter: @railsbricks
+- Phoenixed by: Karthikeyan A K
+- Contact: 77minds@gmail.com
+- Homepage: https://github.com/mindaslab/pheonixbricks
+- Github: https://github.com/mindaslab/pheonixbricks
+- Twitter: @karthik_ak
 
 ---
 
