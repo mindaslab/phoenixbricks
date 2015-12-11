@@ -96,16 +96,16 @@ class Railsbricks
     StringHelpers.wputs "RailsBricks usage:", :info
     StringHelpers.wputs "------------------", :info
     puts
-    puts "rbricks --new (or -n) :"
+    puts "pbricks --new (or -n) :"
     puts "  --> create a new RailsBricks app."
     puts
-    puts "rbricks --recreate-db (or -r) :"
+    puts "pbricks --recreate-db (or -r) :"
     puts "  --> drop, create, migrate & seed the DB"
     puts
-    puts "rbricks --config"
+    puts "pbricks --config"
     puts "  --> display your app config"
     puts
-    puts "rbricks --version (or -v) :"
+    puts "pbricks --version (or -v) :"
     puts "  --> display the RailsBricks version"
     puts
     StringHelpers.wputs "More help, tutorials and documentation at http://www.railsbricks.net/get-started", :info
