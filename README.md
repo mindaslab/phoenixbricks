@@ -1,5 +1,7 @@
 # RailsBricks
 
+[![Join the chat at https://gitter.im/mindaslab/pheonixbricks](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mindaslab/pheonixbricks?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 _Create **Rails** apps. **Faster**._This is a rescued version of railsbricks 3.2.6, as the previous project was suddenly discontinued.
 
 There is still lot of documentation need to be done, I am hosting it in a hurry.
