@@ -18,7 +18,7 @@ There is still lot of documentation need to be done, I am hosting it in a hurry.
 
 ## Features
 
-* replaces the `rails new` command with `rbricks -n`
+* replaces the `rails new` command with `pbricks -n`
 * includes useful gems and sets them up for you
 * offers different UI choices for your web app
 * creates and configures a Devise authentication scheme
@@ -54,7 +54,7 @@ Like any other gem, you simply issue `gem install railsbricks`
 
 ## Usage
 
-To create a new app, just type `rbricks --new` and follow the wizard.
+To create a new app, just type `pbricks --new` and follow the wizard.
 
 You can read the documentation, see a video and go through the *Get Started* tutorial at [railsbricks.net](http://www.railsbricks.net)
 

@@ -474,17 +474,17 @@ class Menu
     # TODO: Offer to save template and/or whole script
 
     # if hints
-    #   wputs "I now have all the details needed to create #{@options[:app_name]}. I can save your settings if you want to generate your application at a later time (for example, if you forgot to start your PostgreSQL server). This will generate a file named #{@options[:app_name]}.rbs in the current directory. You can execute it later by running: rbricks --script #{@options[:app_name]}.rbs", :help
+    #   wputs "I now have all the details needed to create #{@options[:app_name]}. I can save your settings if you want to generate your application at a later time (for example, if you forgot to start your PostgreSQL server). This will generate a file named #{@options[:app_name]}.rbs in the current directory. You can execute it later by running: pbricks --script #{@options[:app_name]}.rbs", :help
 
     #   new_line
 
-    #   wputs "I can also save your chosen settings in a template file if you plan to create similar apps at a later stage. You will only need to fill in unique settings such as the app name. The template will be saved in the current directory as template_#{@options[:app_name]}.rbt. You can execute it later by running: rbricks --template template_#{@options[:app_name]}.rbt", :help
+    #   wputs "I can also save your chosen settings in a template file if you plan to create similar apps at a later stage. You will only need to fill in unique settings such as the app name. The template will be saved in the current directory as template_#{@options[:app_name]}.rbt. You can execute it later by running: pbricks --template template_#{@options[:app_name]}.rbt", :help
     # end
     new_line
 
     # # save settings
     # wputs "- Do you want to save the app settings in order to execute them later?"
-    # wputs "tip: rbricks --script #{@options[:app_name]}.rbs", :help
+    # wputs "tip: pbricks --script #{@options[:app_name]}.rbs", :help
     # wputs "1. Yes", :info
     # wputs "2. No (default)", :info
     # @options[:save_settings] = answer() == "1" ? true : false
@@ -492,7 +492,7 @@ class Menu
 
     # # save template
     # wputs "- Do you want to save common settings as a template?"
-    # wputs "tip: rbricks --template template_#{@options[:app_name]}.rbt", :help
+    # wputs "tip: pbricks --template template_#{@options[:app_name]}.rbt", :help
     # wputs "1. Yes", :info
     # wputs "2. No (default)", :info
     # @options[:save_template] = answer() == "1" ? true : false
