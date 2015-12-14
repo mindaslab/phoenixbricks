@@ -9,7 +9,7 @@ class Menu
   attr_accessor :options
 
   def initialize
-    @options = {railsbricks_version: Version.to_s}
+    @options = {phoenixbricks_version: Version.to_s}
   end
 
   def new_app_menu
@@ -18,8 +18,8 @@ class Menu
     new_line
     wputs '*****************************'
     wputs "*                           *"
-    wputs "*     RailsBricks #{Version.to_s}     *"
-    wputs '*    www.railsbricks.net    *'
+    wputs "*    PhoenixBricks #{Version.to_s}    *"
+    wputs '*    -------------------    *'
     wputs "*                           *"
     wputs "*     using Rails #{@options[:rails_version]}     *"
     wputs "*                           *"
@@ -29,7 +29,7 @@ class Menu
     # WIZARD CONFIG
     wputs "- Do you want me to help you along the way by giving you tips?"
     wputs "1. Sure, help me make the right choices (default)", :info
-    wputs "2. Nope, I already know how to use RailsBricks", :info
+    wputs "2. Nope, I already know how to use PhoenixBricks", :info
     hints = answer() == "2" ? false : true
     new_line(2)
 
@@ -41,7 +41,7 @@ class Menu
     end
     new_line
     wputs "- What do you want to name your app?"
-    default_name = "railsbricks_#{4.times.map{ 0 + Random.rand(9)}.join}"
+    default_name = "phoenixbricks_#{4.times.map{ 0 + Random.rand(9)}.join}"
     wputs "(default: #{default_name})"
     @options[:app_name] = StringHelpers.sanitize(answer("App name:"))
     @options[:app_name] = default_name if @options[:app_name].length < 1
@@ -244,7 +244,7 @@ class Menu
 
       # post model
       if hints
-        wputs "I can create a Post model which is useful if you intend to have a blog, news, articles, etc, in your app. The appropriate model, routes, controllers and views will be created and useable in the admin zone. You will be able to add new posts using the Markdown syntax. To change settings such as how many posts are displayed on a page, refer to the RailsBricks documentation.", :help
+        wputs "I can create a Post model which is useful if you intend to have a blog, news, articles, etc, in your app. The appropriate model, routes, controllers and views will be created and useable in the admin zone. You will be able to add new posts using the Markdown syntax. To change settings such as how many posts are displayed on a page, refer to the PhoenixBricks documentation.", :help
         new_line
       end
       wputs "- Create Post resources?"
@@ -261,7 +261,7 @@ class Menu
 
     # contact form
     if hints
-      wputs "I can create a Contact form for you. Your visitors will be able to fill in their name, email address and their message to you. Note that I won't allow visitors to send you links in order to cut down on spam! To change the contact form settings, refer to the RailsBricks documentation.", :help
+      wputs "I can create a Contact form for you. Your visitors will be able to fill in their name, email address and their message to you. Note that I won't allow visitors to send you links in order to cut down on spam! To change the contact form settings, refer to the PhoenixBricks documentation.", :help
       new_line
     end
     wputs "- Create a Contact form?"

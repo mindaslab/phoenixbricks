@@ -1,7 +1,7 @@
 module ConfigValues
 
   RAILS_VERSION = "4.2.3"
-  ISSUE_PATH = "https://github.com/nicoschuele/railsbricks"
+  ISSUE_PATH = "https://github.com/mindaslab/phoenixbricks"
 
   def self.rails_version
     RAILS_VERSION

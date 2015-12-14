@@ -1,4 +1,4 @@
-require "./lib/railsbricks/version"
+require "./lib/phoenixbrocks/version"
 
 Gem::Specification.new do |s|
   s.name        = 'phoenixbricks'

@@ -168,7 +168,7 @@ class AppGenerator
     new_line(2)
     wputs "----> Setting environment variables ...", :info
     FileUtils.cp_r(@rbricks_dir + "/assets/config/application.yml", @app_dir + "/config")
-    FileHelpers.replace_string(/BRICK_VERSION/, @options[:railsbricks_version], @app_dir + "/config/application.yml")
+    FileHelpers.replace_string(/BRICK_VERSION/, @options[:phoenixbricks_version], @app_dir + "/config/application.yml")
 
     if @options[:email_settings]
       FileHelpers.replace_string(/BRICK_SENDER/, @options[:email_config][:sender], @app_dir + "/config/application.yml")
@@ -316,7 +316,7 @@ class AppGenerator
       Dir.chdir "#{@app_dir}" do
         system "git init"
         system "git add -A ."
-        system "git commit -m 'initial commit (RailsBricks #{@options[:railsbricks_version]})'"
+        system "git commit -m 'initial commit (Phoenixbricks #{@options[:phoenixbricks_version]})'"
 
         if @options[:remote_git]
           system "git remote add origin #{@options[:git_url]}"
