@@ -4,4 +4,4 @@
 
 # This eases development with bundler, e.g. call
 # `bundle exec bin/pbricks`
-# to execute current ('local,' vs. gem-installed) version of railsbricks.
+# to execute current ('local,' vs. gem-installed) version of phoenixbricks.
