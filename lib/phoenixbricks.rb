@@ -1,11 +1,11 @@
-require_relative "railsbricks/version"
-require_relative "railsbricks/string_helpers"
-require_relative "railsbricks/errors"
-require_relative "railsbricks/menu"
-require_relative "railsbricks/app_generator"
-require_relative "railsbricks/config_helpers"
+require_relative "phoenixbricks/version"
+require_relative "phoenixbricks/string_helpers"
+require_relative "phoenixbricks/errors"
+require_relative "phoenixbricks/menu"
+require_relative "phoenixbricks/app_generator"
+require_relative "phoenixbricks/config_helpers"
 
-class Railsbricks
+class Phoenixbricks
 
   def self.main(args)
     # new app
@@ -66,16 +66,16 @@ class Railsbricks
 
   def self.display_version
     puts
-    StringHelpers.wputs "RailsBricks #{Version.current} (#{Version.current_date})", :info
-    StringHelpers.wputs "www.railsbricks.net", :info
-    StringHelpers.wputs "source: https://github.com/nicoschuele/railsbricks", :help
+    StringHelpers.wputs "PhoenixBricks #{Version.current} (#{Version.current_date})", :info
+    StringHelpers.wputs "formerly at www.railsbricks.net", :info
+    StringHelpers.wputs "source: https://github.com/mindaslab/phoenixbricks", :help
     StringHelpers.wputs "by Nico Schuele (www.nicoschuele.com)", :help
     puts
   end
 
   def self.display_config
     puts
-    StringHelpers.wputs "----> Retrieving your app's RailsBricks config values ...", :info
+    StringHelpers.wputs "----> Retrieving your app's PhoenixBricks config values ...", :info
     options = ConfigHelpers.load_config
     puts
     if options.count > 1
@@ -93,11 +93,11 @@ class Railsbricks
 
   def self.display_help
     puts
-    StringHelpers.wputs "RailsBricks usage:", :info
+    StringHelpers.wputs "PhoenixBricks usage:", :info
     StringHelpers.wputs "------------------", :info
     puts
     puts "pbricks --new (or -n) :"
-    puts "  --> create a new RailsBricks app."
+    puts "  --> create a new PhoenixBricks app."
     puts
     puts "pbricks --recreate-db (or -r) :"
     puts "  --> drop, create, migrate & seed the DB"
@@ -106,9 +106,9 @@ class Railsbricks
     puts "  --> display your app config"
     puts
     puts "pbricks --version (or -v) :"
-    puts "  --> display the RailsBricks version"
+    puts "  --> display the PhoenixBricks version"
     puts
-    StringHelpers.wputs "More help, tutorials and documentation at http://www.railsbricks.net/get-started", :info
+    StringHelpers.wputs "More help, tutorials and documentation were formerly found at http://www.railsbricks.net/get-started", :info
     puts
   end
 
