@@ -14,7 +14,7 @@ class Validator
   end
 
   def validate(validate = :script, abort_on_error = true)
-    add_error("RailsBricks version not set") if @options[:railsbricks_version].to_s == ''
+    add_error("PhoenixBricks version not set") if @options[:phoenixbricks_version].to_s == ''
     add_error("Rails version not set") if @options[:rails_version].to_s == ''
     add_error("App name not set") if @options[:app_name].to_s == ''
     add_error("Rails app name not set") if @options[:rails_app_name].to_s == ''
